@@ -1,0 +1,28 @@
+.not-found-page {
+  margin-top: 60px;
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-error-container {
+  text-align: center;
+}
+
+.not-found-error-number {
+  background-image: linear-gradient(
+    to top right,
+    rgb(177, 37, 247),
+    rgb(8, 192, 103)
+  );
+  color: transparent;
+  background-clip: text;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.not-found-error-description {
+  font-weight: 900;
+  font-size: 30px;
+}

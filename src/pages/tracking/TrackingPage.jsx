@@ -1,20 +1,21 @@
 import React from "react";
 import "./TrackingPage.css";
 
-import Header from "../components/Header";
+import Header from "../../components/Header";
+import { NavLink } from "react-router";
 
 const TrackingPage = () => {
   return (
     <>
       <title>Tracking</title>
-
+      <link rel="icon" type="image/svg+xml" href="/tracking-favicon.png" />
       <Header />
 
       <div className="tracking-page">
         <div className="order-tracking">
-          <a className="back-to-orders-link link-primary" href="/orders">
+          <NavLink className="back-to-orders-link link-primary" to="/orders">
             View all orders
-          </a>
+          </NavLink>
 
           <div className="delivery-date">Arriving on Monday, June 13</div>
 
